@@ -5,6 +5,31 @@ body {
   background: white !important;
   font-family: "Roboto", Arial, sans-serif;
 }
+.bg-color-nav {
+  background: white !important;
+}
+.font-list {
+}
+.font-list ul {
+  list-style: none;
+  display: flex;
+  column-gap: 10px;
+}
+.font-list ul li {
+  border: 1px solid rgba(128, 128, 128, 0.226);
+  border-radius: 20px;
+  padding: 8px;
+}
+.font-list ul li a {
+  color: gray;
+}
+.font-list li:hover {
+  background-color: #95adbe;
+}
+
+.font-list li a i:hover {
+  color: white !important;
+}
 .word h3 {
   font-size: 28px;
 }
@@ -174,11 +199,11 @@ body {
 .card-bg-color:hover {
   background: #95adbe !important;
   color: white !important;
-  .card-bg{
+  .card-bg {
     background: #95adbe !important;
     color: white !important;
   }
-  .card-bg span{
+  .card-bg span {
     color: white;
   }
 }
