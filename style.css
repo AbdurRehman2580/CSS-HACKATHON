@@ -115,6 +115,9 @@ body {
   background: #95adbe !important;
   color: white !important;
 }
+.section-padding{
+  padding-bottom: 100px ;
+}
 .icon span {
   padding: 80px 30px 30px 30px;
   border: solid #f5f4f0;
@@ -134,7 +137,19 @@ body {
   width: 80%;
   margin: auto;
 }
-.icon-image {
+
+.icon-image1 {
+  display: none;
+  width: 40px;
+  height: 40px;
+  opacity: 0.9;
+  position: relative;
+  left: 48%;
+  bottom: 8px;
+  background: white;
+  border-radius: 50%;
+}
+.icon-image{
   width: 40px;
   height: 40px;
   opacity: 0.9;
@@ -144,10 +159,16 @@ body {
   background: #ff7a5c;
   border-radius: 50%;
 }
-.icon span:hover {
+.icon_hover_chnge:hover .icon span {
   background: #95adbe;
 }
 
+.icon_hover_chnge:hover .icon-image1 {
+    display: block;
+}
+.icon_hover_chnge:hover .icon-image {
+    display: none;
+}
 .opacity {
   background: #f5f4f0;
 }
@@ -316,10 +337,11 @@ body {
 .list-color a {
   color: rgba(255, 255, 255, 0.8);
 }
-.f-l {
+.f-1 {
   padding-left: 200px;
-  background: #1a1a1a;
+  background: #1a1a1a !important;
 }
+
 .f-e {
   background: #000;
   color: gray;
@@ -422,4 +444,19 @@ body {
     color: white !important;
     background-color: black;
   }
+  
+
+.content-start{
+    margin-left: -50px !important;
+  }
+
+
+  .f-e1{
+    margin-left: -100px !important;
+  }
+  .f-e1 div{
+    width: 160%;
+  }
+
+
 }
